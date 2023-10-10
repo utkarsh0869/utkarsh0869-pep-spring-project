@@ -35,6 +35,7 @@ public class MessageService {
         }
         return 0;
     }
+    
 
     public List<Message> getMessagesByAccountId(int account_id) {
         return messageRepository.findMessagesByAccountId(account_id);
